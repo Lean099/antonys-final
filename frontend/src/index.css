@@ -1,0 +1,134 @@
+/* -----------------------
+   🎨 PALETA PERSONALIZADA
+   ----------------------- */
+:root {
+  --color-fondo: #f5f0e6;       /* beige claro */
+  --color-acento: #C9B59C;      /* marrón dorado */
+  --color-acento-hover: #b5895e;
+  --color-texto: #2b2b2b;       /* gris oscuro */
+  --color-oscuro: #1e1e1e;      /* fondo oscuro */
+  --color-blanco: #ffffff;
+}
+
+/* -----------------------
+   🔤 ESTILOS GENERALES
+   ----------------------- */
+body {
+  background-color: var(--color-fondo) !important;
+  color: var(--color-texto) !important;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------------------
+   🧭 HEADER Y NAVBAR
+   ----------------------- */
+header {
+  background-color: var(--color-oscuro) !important;
+  color: var(--color-blanco);
+  padding: 1rem 0;
+}
+
+header h1,
+header small {
+  color: var(--color-blanco);
+}
+
+/* Navbar */
+nav.navbar {
+  background-color: var(--color-acento) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  color: var(--color-oscuro) !important;
+  font-weight: 600;
+}
+
+.navbar-brand:hover {
+  color: var(--color-blanco) !important;
+}
+
+.navbar .nav-link {
+  color: var(--color-oscuro) !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--color-blanco) !important;
+}
+
+/* -----------------------
+   📋 BOTONES
+   ----------------------- */
+.btn-primary {
+  background-color: var(--color-acento) !important;
+  border-color: var(--color-acento) !important;
+  color: var(--color-oscuro) !important;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-acento-hover) !important;
+  border-color: var(--color-acento-hover) !important;
+  color: var(--color-blanco) !important;
+}
+
+/* -----------------------
+   📦 CONTENIDO PRINCIPAL
+   ----------------------- */
+main {
+  background-color: var(--color-blanco);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem;
+}
+
+/* -----------------------
+   🧾 TABLAS
+   ----------------------- */
+.table {
+  background-color: var(--color-blanco);
+  color: var(--color-texto);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: var(--color-acento);
+  color: var(--color-oscuro);
+  font-weight: 600;
+}
+
+/* -----------------------
+   💬 MODALES
+   ----------------------- */
+.modal-content {
+  background-color: #fffaf2 !important;
+  border: 1px solid #e2d3c0 !important;
+  color: var(--color-texto) !important;
+  border-radius: 10px;
+}
+
+/* -----------------------
+   👣 FOOTER
+   ----------------------- */
+footer {
+  background-color: var(--color-oscuro) !important;
+  color: var(--color-fondo) !important;
+  text-align: center;
+  padding: 1.2rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+footer span {
+  color: var(--color-acento);
+}
